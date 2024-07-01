@@ -1,0 +1,3 @@
+#make a program, it needs to show the multiplication table of given number
+n1 = int(input('give me a number NOW: '))
+print('let me see...\n here is their multiplication table: \n {0} * 1 = {1} \n {0} * 2 = {2}\n {0} * 3 = {3} \n {0} * 4 = {4} \n {0} * 5 = {5} \n {0} * 6 = {6} \n {0} * 7 = {7} \n {0} * 8 = {8} \n {0} * 9 = {9} \n {0} * 10 = {10}' .format(n1, n1 * 1, n1 * 2, n1 * 3, n1 * 4, n1 * 5, n1 * 6, n1 * 7, n1 * 8, n1 * 9, n1 * 10))
